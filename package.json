@@ -1,0 +1,27 @@
+{
+  "name": "bucketlist",
+  "version": "1.0.0",
+  "description": "This is an app that will allow the user to add and update items on there bucket list",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nukepowermaiden2025/bucketlist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nukepowermaiden2025/bucketlist/issues"
+  },
+  "homepage": "https://github.com/nukepowermaiden2025/bucketlist#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.15.0"
+  }
+}
