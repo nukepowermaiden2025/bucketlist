@@ -1,0 +1,9 @@
+<li>
+	{{name}}
+
+	<button class="change-complete" data-id="{{id}}" data-newcomplete="{{complete}}">
+		{{#if complete}}COMPLETE{{else}}TODO{{/if}}
+	</button>
+
+	<button class="delete-bucketItem" data-id="{{this.id}}">DELETE!</button>
+</li>

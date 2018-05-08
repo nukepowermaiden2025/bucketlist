@@ -1,4 +1,4 @@
-DROP DATABASE IF EXISTS bucketlists_db;
+
 
 CREATE DATABASE bucketlists_db;
 
