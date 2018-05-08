@@ -1,9 +1,10 @@
 <li>
-	{{name}}
+	<h2>{{bucketItem_name}}</h2>
 
-	<button class="change-complete" data-id="{{id}}" data-newcomplete="{{complete}}">
+	<button type="button" class="change-complete btn btn-success" data-id="{{id}}" data-newcomplete="{{complete}}">
 		{{#if complete}}COMPLETE{{else}}TODO{{/if}}
 	</button>
 
-	<button class="delete-bucketItem" data-id="{{this.id}}">DELETE!</button>
+	<button type="button" class="delete-bucketItem btn btn-dark" data-id="{{this.id}}">DELETE!</button>
 </li>
+<br>

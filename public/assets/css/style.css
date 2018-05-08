@@ -1,0 +1,18 @@
+#complete{
+    background: rgba(111, 158, 211, 0.823);
+}
+
+#not-complete{
+    background: rgba(221, 149, 116,0.823);
+}
+
+.bg{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNvlgSeLHqTD1ZmYmYemcSakiZSo1VB6t8KVgMEnG8NJ-6sFDyhw");
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+.title{
+    font-family: fantasy;
+    font-size: 72px;
+    
+}
