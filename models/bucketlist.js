@@ -15,6 +15,13 @@ var bucketItem ={
         orm.update("bucketlists",objColVals,condition, (res)=>{
             cb(res);
         });
+    },
+    delete: function(condition,cb){
+        orm.delete("bucketlists",condition, (res)=>{
+            cb(res);//The orm has the table since it is whatwe
+            //are using to query the db, that is why I don't need
+            //to pass it in the function above.
+        });
     }
 
 }

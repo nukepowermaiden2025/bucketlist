@@ -43,6 +43,21 @@ router.put("/api/bucketItems/:id", function(req, res) {
       res.status(200).end();
     }
   });
+
+  router.delete("/api/bucketItems/:id", function(req, res) {
+    var condition = "id = " + req.params.id;
+    bucketItem.delete(condition, function(result) {
+      // Send back the ID of the new quote
+      if(res.affectedRows ==0){
+        return res.status(404).end();
+      }
+      else{
+        res.status(200).end();
+      }
+    });
+  });
+
+
 });
 
 // Export routes for server.js to use.
